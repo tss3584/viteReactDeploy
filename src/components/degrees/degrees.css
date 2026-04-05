@@ -1,0 +1,55 @@
+.degrees-container {
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 10px;
+}
+
+.degrees-container h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #2a2a2a;
+}
+
+.degrees-container h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: #3a3a3a;
+}
+
+.degrees-container h4 {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+
+.degrees-container p {
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #444;
+}
+
+.degrees-container ul {
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+
+.degrees-container li {
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.MuiAccordion-root {
+  margin-bottom: 12px !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.MuiAccordionSummary-root {
+  background: #f7f7f7;
+}
+
+.MuiAccordionDetails-root {
+  background: #fff;
+  padding: 16px 20px !important;
+}
