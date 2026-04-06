@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import GetData from '../../utils/GetData.js';
 
 import CoopTable from './COOPtable.jsx';
+import DegreeStats from './DegreeStats.jsx';
 
         
 export default function Employment() {
@@ -28,6 +29,7 @@ export default function Employment() {
         paddingRight: "1rem"
     }}
 >
+    <DegreeStats employmentObj={employmentObj}/>
     <h2>{employmentObj.introduction.title}</h2>
 
     {employmentObj.introduction.content.map((item, index) => (

@@ -4,3 +4,4 @@ Need react-top-loading-bar
 (look closely at top of page when reloading, i think loading bars 
 in the middle of the screen are obnoxious but I wanted one for this 
 project.)
+PRime react data table as well
