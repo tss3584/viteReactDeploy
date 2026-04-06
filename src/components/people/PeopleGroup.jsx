@@ -1,6 +1,6 @@
-import PeopleModal from "./peopleModal";
+import PeopleModal from "./PeopleModal";
 
-const PeopleGroup = ({peopleData}) =>{
+const PeopleGroup = ({peopleData})=>{
     return(
         <div>
             {/* We need to display this group of people*/}
